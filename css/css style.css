@@ -1,0 +1,357 @@
+*{ padding: 0;
+    margin: 0;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family:'Poppins',sans-serif;
+    transition: .3s;
+}
+.dark{
+    background: #1F2E35;
+    transition: .3s;
+}
+#header{
+    padding: 25px 0;
+    -webkit-box-shadow: 0 5px 5px -5px rgba(18, 32, 43, 0.2);
+    -moz-box-shadow: 0 5px 5px -5px rgba(18, 32, 43, 0.2);
+    box-shadow: 0 5px 5px -5px rgba(18, 32, 43, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.dark #header{
+    -webkit-box-shadow: 0 5px 5px -5px rgba(254, 254, 254, 0.2);
+    -moz-box-shadow: 0 5px 5px -5px rgba(254, 254, 254, 0.2);
+    box-shadow: 0 5px 5px -5px rgba(254, 254, 254, 0.2);
+}
+.header-logo h1 {
+    color: #173A56;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 16px;
+}
+
+.dark .header-logo h1{
+    color: white;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-nav a{
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .4s;
+    padding: 0 10px;
+}
+.dark .header-nav a{
+    color: white;
+}
+.header-nav a:hover{
+    color: royalblue;
+    text-decoration-line:underline ;
+}
+.btn-one,
+.btn-two{
+    color: #173A56;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border: 2px solid #BCD0E5;
+    background: transparent;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.btn-two{
+    background: #02897A;
+    color: white;
+}
+.btn-three{
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #02897A;
+    font-size: 22px;
+}
+.dark-white{
+    transition: .3s;
+    display: block;
+    animation:dark 1s alternate linear ;
+}
+.dark-black{
+    display: none;
+
+}
+.dark .dark-black{
+    display: block;
+    animation: dark alternate linear;
+}
+.dark .dark-white{
+    display: none;
+
+}
+@keyframes dark {
+    0%{
+        rotate: 350deg;
+        scale: 0.5;
+    }
+
+}
+.dark .btn-one{
+    color: white;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*work start*/
+#work{
+    padding: 50px 0;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark .work-text h1,
+.dark .work-text p,
+.dark .work-btn button{
+    color: white;
+}
+.work-text h1{
+    width: 518px;
+    color: #22343D;
+    font-size: 40px;
+    font-weight: 700;
+}
+.work-text p{
+    color: #22343D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 458px;
+    padding: 18px 0 45px 0;
+}
+.work-btn{
+    display: flex;
+    align-items: center;
+}
+.work-btn button{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #02897A;
+    padding: 15px 25px;
+}
+.work-btn a{
+    display: flex;
+    align-items: center;
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    padding-left: 30px;
+}
+.work-btn a ion-icon{
+    font-size: 23px;
+    padding-right: 10px;
+
+}
+/*work end*/
+
+#product{
+    background: url("../img/product-bg.png") no-repeat center/cover;
+
+}
+.product h1{
+    color: #22343D;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    width: 539px;
+    margin: 0 auto;
+    padding-bottom: 66px;
+}
+.product-icon {
+    border-radius: 19px;
+    background: #02897A;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-block h3{
+    color: #22343D;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 30px 0 16px 0;
+}
+.product-block p {
+    width: 240px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.product-icon-two{
+border-radius: 19px;
+    background: #4D8DFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.product-icon-three{
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    background: #740A76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-icon-four{
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    background: #F03E3D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-general{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 60px;
+
+}
+.product button{
+    padding: 15px 32px;
+    border-radius: 4px;
+    background: #02897A;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid #02897A;
+
+}
+.product button:hover{
+    border: 2px solid #02897A;
+    transition: .2s;
+    background: white;
+    color: #02897A;
+}
+/*manager start*/
+
+#manager{
+    padding: 100px 0;
+}
+
+.manager-text h4{
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.manager-text h1{
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 23px;
+}
+.manager-text p{
+    width: 486px;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+.manager {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark .manager-text h1,
+.dark .manager-text h4,
+.dark .manager-text p{
+    color: white;
+}
+/*manager end*/
+
+/*customer start*/
+#customer{
+    padding: 100px 0;
+}
+.customer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customer-group h3{
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 600;
+}
+.customer-group h1{
+    padding:8px 0 23px 0 ;
+    color: #22343D;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.customer-group p{
+    padding-bottom:30px ;
+    color: #22343D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.icon-general{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.icon-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    background:#FF9900 ;
+}
+
+/*customer end*/
