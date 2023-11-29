@@ -1,0 +1,80 @@
+@media (max-width: 1440px){
+  .container{
+      width: 90%;
+  }
+}
+
+@media (max-width: 1200px){
+
+}
+
+@media(max-width:1024px ){
+    .work{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .work-btn{
+        justify-content: center;
+    }
+    .product-general{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .product-block{
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .manager,
+    .coll{
+        flex-direction: column-reverse;
+
+    }
+    .manager-text,
+    .coll-text,
+    .customer-group{
+        padding-top: 30px;
+    }
+    .customer{
+        flex-direction: column;
+    }
+    .table-group,
+    .what-general{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .table-one,
+    .what-one{
+        margin: 10px 0;
+    }
+    .join-block{
+        flex-direction: column;
+        height: 90%;
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+    .footer-general{
+        flex-wrap: wrap;
+    }
+    .footer-title,
+    .footer-text,
+    .footer-logo{
+        width: 50%;
+    }
+
+
+
+
+}
+
+@media(max-width: 992px){
+    .header-nav a,
+    .header-nav .btn-one,
+    .header-nav .btn-two{
+        display: none;
+    }
+
+}
