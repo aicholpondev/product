@@ -151,13 +151,14 @@
     .icon-general h6{
         width: 100%;
     }
+    .media-join{
+        width: 90%;
+    }
 }
 
 @media(max-width: 400px){
 
-    .media-join{
-        width: 90%;
-    }
+
 }
 
 @media(max-width: 375px){
